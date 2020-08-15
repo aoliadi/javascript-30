@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script defer src='func.js'> </script>
+    <title>1 - Drum Kit</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body>
+    <article class="box-container">
+        <section class="box" data-key="KeyA">
+            <small>A<br>Clap</small> 
+        </section>
+        <section class="box" data-key="KeyS">
+            <small>S<br>Hihat</small>
+        </section>
+        <section class="box" data-key="KeyD">
+            <small>D<br>Kick</small>
+        </section>
+        <section class="box" data-key="KeyF">
+            <small>F<br>Openhat</small>
+        </section>
+        <section class="box" data-key="KeyG">
+            <small>G<br>Boom</small>
+        </section>
+        <section class="box" data-key="KeyH">
+            <small>H<br>Ride</small>
+        </section>
+        <section class="box" data-key="KeyJ">
+            <small>J<br>Snare</small>
+        </section>
+        <section class="box" data-key="KeyK">
+            <small>K<br>Tom</small>
+        </section>
+        <section class="box" data-key="KeyL">
+            <small>L<br>Tink</small>
+        </section>
+<!--
+        <button class="button"  onclick="create()"> 
+            Create new box
+        </button>
+-->
+    </article>
+        <audio src="sounds/clap.wav" data-key="KeyA"></audio>
+        <audio src="sounds/hihat.wav" data-key="KeyS"></audio>
+        <audio src="sounds/kick.wav" data-key="KeyD"></audio>
+        <audio src="sounds/openhat.wav" data-key="KeyF"></audio>
+        <audio src="sounds/boom.wav" data-key="KeyG"></audio>
+        <audio src="sounds/ride.wav" data-key="KeyH"></audio>
+        <audio src="sounds/snare.wav" data-key="KeyJ"></audio>
+        <audio src="sounds/tom.wav" data-key="KeyK"></audio>
+        <audio src="sounds/tink.wav" data-key="KeyL"></audio>
+</body>
+</html>
