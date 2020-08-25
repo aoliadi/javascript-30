@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 95vh;
+/*    padding: 20px;*/
+}
+
+:root {
+    --circle-width: 180px;
+}
+
+.the-circle {
+    min-height: 180px;
+    min-width: var(--circle-width);
+    border-radius: 50%;
+    border: 5px solid #00899b;
+    
+    position: relative;
+}
+
+.hand {
+    width: 50%;
+
+    position: absolute;
+    top: 50%;
+    
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    
+    transition: all 0.5s cubic-bezier(1, -0.31, 0, 1.26);
+}
+
+.minute-hand {
+    border: 1px solid blue;
+}
+
+.seconds-hand {
+    border: 1px solid red;
+}
+
+.hour-hand {
+    border: 1px solid blue;
+}
